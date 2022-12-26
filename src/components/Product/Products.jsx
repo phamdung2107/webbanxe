@@ -61,7 +61,7 @@ const Products = () => {
                   color: "rgb(0, 0, 0, 0.7)",
                 }}
               >
-                Featured Products
+              Outstanding car model
               </h2>
             )}
             <div
@@ -123,7 +123,7 @@ const Products = () => {
                 >
                   {products &&
                     products.map((product) => (
-                      <ProductCard key={product._id} product={product} />
+                      <ProductCard key={product.id} product={product} />
                     ))}
                 </div>
               )}

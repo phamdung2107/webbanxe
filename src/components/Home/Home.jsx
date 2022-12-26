@@ -13,7 +13,7 @@ const products = [
     id: "1",
     name: "toyota",
     description: "bgwdiquwdiqw",
-    images: "tesd.com",
+    images: "https://cdnimg.vietnamplus.vn/uploaded/ngtnnn/2021_01_21/2101xe2.jpg",
     offerPrice:10,
     price: 1000
   },
@@ -21,7 +21,7 @@ const products = [
     id: "2",
     name: "toyota",
     description: "bgwdiquwdiqw",
-    images: "tesd.com",
+    images: "https://cdnimg.vietnamplus.vn/uploaded/ngtnnn/2021_01_21/2101xe2.jpg",
     offerPrice:10,
     price: 1000
   },
@@ -29,7 +29,7 @@ const products = [
     id: "3",
     name: "toyota",
     description: "bgwdiquwdiqw",
-    images: "tesd.com",
+    images: "https://cdnimg.vietnamplus.vn/uploaded/ngtnnn/2021_01_21/2101xe2.jpg",
     offerPrice:10,
     price: 1000
   },

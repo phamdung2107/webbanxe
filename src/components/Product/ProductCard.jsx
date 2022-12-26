@@ -4,7 +4,7 @@ function ProductCard({ product }) {
 
   return (
     <>
-      <Link className="ProductCard" to={`/product/${product._id}`}>
+      <Link className="ProductCard" to={`/product/${product.id}`}>
         <img
           src={product.images}
           alt={product.name}
