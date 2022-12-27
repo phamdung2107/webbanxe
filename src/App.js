@@ -39,7 +39,7 @@ function App() {
         <Route exact path="/cart" element={<Cart />} />
         <Route exact path="/faq" element={<CommingSoon />} />
         <Route exact path="/favourites" element={<Favourites />} />
-        <Route exact path="/lichhen" element={<Lichhen />} />
+        <Route exact path="/lichhen/:id" element={<Lichhen />} />
         <Route path="/me" element={<Profile />} />
         <Route exact path="/me/update" element={<UpdatePassword />} />
         <Route exact path="/me/update/info" element={<EditProfile />} />
