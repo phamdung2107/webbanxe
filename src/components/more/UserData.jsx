@@ -6,9 +6,7 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonIcon from "@mui/icons-material/Person";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import MailLockOut from "@mui/icons-material/MailLockOutlined"
 import HeartIcon from "@mui/icons-material/FavoriteBorder";
-// import HeartActiveIcon from "@mui/icons-material/Favorite";
 import HomeIcon from "@mui/icons-material/Home";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
@@ -54,7 +52,6 @@ const UserData = ({ user }) => {
       func: favourite,
     },
     { icon: <PersonIcon />, name: "Profile", func: account },
-    { icon: <MailLockOut />, name: "Đặt lịch hẹn", func: lichhen },
     { icon: <ExitToAppIcon />, name: "Logout", func: logoutUser },
   ];
 
@@ -87,10 +84,6 @@ const UserData = ({ user }) => {
   }
   function account() {
     history("/me");
-  }
-
-  function lichhen() {
-    history("/lichhen");
   }
 
   function logoutUser() {

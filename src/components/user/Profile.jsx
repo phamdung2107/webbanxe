@@ -5,11 +5,11 @@ import Header from "../Home/Header";
 import MetaData from "../more/Metadata";
 import "./Profile.css";
 
-const user = [{
+const user = {
     name: 'John',
     createdAt: '2015-01-01T00:00:00',
     url: 'http://test.com/',
-}]
+}
 
 const Profile = () => {
 
